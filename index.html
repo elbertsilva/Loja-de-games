@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Loja de games</title>
+    <link rel="stylesheet" type="text/css" href="Css/index.css" />
+    <link rel="stylesheet" type="text/css" href="Css/efeitos.css" />
+  </head>
+  <body>
+    <div id="preloader">
+      <div class="loading"></div>
+      <header id="header">
+        <img id="logo" src="Midias/photo-1613278137247-0bf3fff95fe2.jfif" />
+        <h1 id="h1">LOJA DE GAMES</h1>
+        <div class="search">
+          <input
+            id="inputSearch"
+            type="search"
+            name="pesquisar"
+            placeholder="Pesquisar..."
+          />
+          <svg
+            id="iconSearch"
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            class="bi bi-search"
+            viewBox="0 0 16 16"
+            cursor="pointer"
+          >
+            <path
+              d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
+            />
+          </svg>
+        </div>
+        <a id="buttonSair" type="button" href="login.html">Sair</a>
+      </header>
+      <nav id="links">
+        <a class="navA" href="index.html">Inicio</a>
+        <a class="navA" href="jogos.html">Jogos</a>
+        <a class="navA" href="quemSomos.html">Quem somos</a>
+        <a class="navA" href="contatos.html">Contato</a>
+        <a class="navA" href="vendas.html">Vendas</a>
+      </nav>
+      <div class="container">
+        <div id="div1">
+          <h1 style="display: flex; justify-content: center">BEM VINDO!</h1>
+          <p>
+            Essa é a nossa loja de games, aonde tudo acontece. Aqui você
+            encontra:
+          </p>
+          <ul>
+            <li>Os melhores jogos</li>
+            <li>Os melhores preços</li>
+            <li>O melhor atendimento</li>
+            <li>Garantia e entrega no tempo certo</li>
+          </ul>
+          <p>Fique por dentro de tudo o que acontece no mundo virtual.</p>
+          <p>Fique por dentro das nossas promoções.</p>
+        </div>
+        <div id="div2">
+          <img
+            id="imgLogo"
+            src="Midias/photo-1613278137247-0bf3fff95fe2.jfif"
+          />
+        </div>
+        <div id="div3">
+          <video width="100%" autoplay controls>
+            <source src="./Midias/video.mp4" type="video/mp4" />
+          </video>
+        </div>
+      </div>
+    </div>
+    <script src="JavaScript/efeitos.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  </body>
+</html>
