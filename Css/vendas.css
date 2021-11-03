@@ -91,7 +91,6 @@ body {
   cursor: pointer;
   height: 35px;
   margin-top: 20px;
-  /* width: 20%; */
 }
 #confirmarCompra:hover {
   background-color: aqua;
@@ -148,6 +147,10 @@ body {
     height: 100%;
     overflow: auto;
   }
+  #content2 h1 {
+    justify-content: center;
+    text-decoration: center;
+  }
   #content2 p {
     flex-direction: column;
     width: auto;
@@ -180,5 +183,9 @@ body {
   #card {
     display: flex;
     flex-direction: column;
+  }
+  #confirmarCompra {
+    align-items: center;
+    justify-content: center;
   }
 }
