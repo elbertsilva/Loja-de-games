@@ -12,6 +12,7 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   height: 100%;
+  overflow: auto;
 }
 .jogos3 {
   grid-column: 1/-1;

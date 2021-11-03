@@ -89,6 +89,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   height: calc(100vh - 500px);
+  overflow: auto;
   width: 100%;
 }
 #div1 {
@@ -122,4 +123,21 @@
   cursor: pointer;
   display: flex;
   justify-content: flex-start;
+}
+@media (max-width: 1200px) {
+  #logo {
+    display: none;
+  }
+  #h1 {
+    display: none;
+  }
+  .search {
+    display: none;
+  }
+  #links {
+    flex-direction: column;
+  }
+  .container {
+    grid-template-columns: auto;
+  }
 }
