@@ -88,7 +88,6 @@
 .container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  height: calc(100vh - 500px);
   overflow: auto;
   width: 100%;
 }
